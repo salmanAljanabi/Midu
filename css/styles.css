@@ -12,6 +12,7 @@ body {
 /* class selectors */
 
 .main-header{
+  width: 100%;
   background: #111517;
   padding: 0.5rem 1rem;
   text-align: center;
