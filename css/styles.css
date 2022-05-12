@@ -71,7 +71,8 @@ body {
 .main-section-img{
   text-align: center;
   margin: 6rem 0;
+  padding: 0 2rem;
 }
 .love-cake{
-  width: 1080px;
+  width: 100%;
 }
