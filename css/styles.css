@@ -12,7 +12,7 @@ body {
 /* class selectors */
 
 .main-header{
-  width: 100%;
+
   background: #111517;
   padding: 0.5rem 1rem;
   text-align: center;
@@ -52,16 +52,26 @@ body {
 
 .main-nav__item{
   display: inherit;
+  margin: 0 1rem;
 }
 
-.main-nav__item > a{
+.main-nav__item a{
   text-decoration: none;
-  padding: 0 1rem;
   font-size: 1.5rem;
   color: #EABF9F;
+  padding-bottom: 0.5rem;
+}
+
+.main-nav__item a:hover,
+.main-nav__item a:active{
+  color: rgb(215, 122, 106);
+  border-bottom: solid rgb(215, 122, 106) 0.3rem;
 }
 
 .main-section-img{
-  width: 100%;
   text-align: center;
+  margin: 6rem 0;
+}
+.love-cake{
+  width: 1080px;
 }
